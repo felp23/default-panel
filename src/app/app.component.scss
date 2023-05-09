@@ -1,32 +1,28 @@
-.container {
+.main-container {
+    // background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin:auto;
+    // height: 300px;
+    // margin-top: 10px;
+}
+.sub-container {
     display: flex;
-    flex-direction: row;
-    // padding: 10px;
-    margin-top: 10px;
+    padding-top: 20px;
 }
-
-app-menu {
-  margin-right: 20px;
+.content {
+    padding-left: 20px;
 }
-
-router-outlet {
-    margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-//   .container {
-//     flex-direction: column;
-//   }
-
-//   .app-menu {
-//     width: 100%;
-//   }
-
-//   .router-outlet {
-//     width: 100%;
-//     margin-left: 0;
-//   }
-}
+// app-header {
+//     // width: 100%;
+//     margin-bottom: 200px;
+//     // position: fixed;
+// }
+// app-menu {
+//     // margin-top: 180px!important; /* altura do header + 40px de margem */
+//     // margin-right: 20px;
+// }
 
 
 // .container {
