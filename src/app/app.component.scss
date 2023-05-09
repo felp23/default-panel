@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    // padding: 10px;
+    margin-top: 10px;
+}
+
+app-menu {
+  margin-right: 20px;
+}
+
+router-outlet {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+//   .container {
+//     flex-direction: column;
+//   }
+
+//   .app-menu {
+//     width: 100%;
+//   }
+
+//   .router-outlet {
+//     width: 100%;
+//     margin-left: 0;
+//   }
+}
+
+
+// .container {
+//     display:block;
+//     width: 84%;
+//     margin-left: 12%;
+//     margin-top: 10px;
+// }
+
+// app-menu {
+//   width: 25%;
+// }
+
+// router-outlet {
+//     display: inline;
+//     width: 75%;
+//     // margin-right: 1rem;
+// }
