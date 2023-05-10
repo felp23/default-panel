@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="content">
+        <p-card>
+            <p class="title">Seja bem vindo!</p>
+            <p class="sub-title">Acesse com seu e-mail senha.</p>
+            <div class="p-inputgroup">
+                <span class="p-inputgroup-addon">
+                    <i class="pi pi-envelope"></i>
+                </span>
+                <input pInputText placeholder="E-mail" />
+            </div>
+            <div class="p-inputgroup">
+                <span class="p-inputgroup-addon">
+                    <i class="pi pi-lock"></i>
+                </span>
+                <input pInputText placeholder="Senha" />
+            </div>
+            <div pButton (click)="login()">
+                <p>Entrar</p>
+            </div>
+        </p-card>
+    </div>
+</div>
